@@ -12,6 +12,11 @@
 		4A8AB3DF2BBE2D8D00B7B2E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AB3DE2BBE2D8D00B7B2E2 /* ViewController.swift */; };
 		4A8AB3E42BBE2D8F00B7B2E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A8AB3E32BBE2D8F00B7B2E2 /* Assets.xcassets */; };
 		4A8AB3E72BBE2D8F00B7B2E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A8AB3E52BBE2D8F00B7B2E2 /* LaunchScreen.storyboard */; };
+		4A8AB3EF2BBE581C00B7B2E2 /* PlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AB3EE2BBE581C00B7B2E2 /* PlacesTableViewController.swift */; };
+		4A8AB3F12BBE5B0D00B7B2E2 /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AB3F02BBE5B0D00B7B2E2 /* PlaceAnnotation.swift */; };
+		4A8AB3F32BBE65DC00B7B2E2 /* CLLocation-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AB3F22BBE65DB00B7B2E2 /* CLLocation-Extension.swift */; };
+		4A8AB3F52BBE6AAE00B7B2E2 /* PlacesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AB3F42BBE6AAE00B7B2E2 /* PlacesDetailViewController.swift */; };
+		4A8AB3F72BBE71C600B7B2E2 /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AB3F62BBE71C600B7B2E2 /* String-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		4A8AB3E32BBE2D8F00B7B2E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A8AB3E62BBE2D8F00B7B2E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A8AB3E82BBE2D8F00B7B2E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A8AB3EE2BBE581C00B7B2E2 /* PlacesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewController.swift; sourceTree = "<group>"; };
+		4A8AB3F02BBE5B0D00B7B2E2 /* PlaceAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
+		4A8AB3F22BBE65DB00B7B2E2 /* CLLocation-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation-Extension.swift"; sourceTree = "<group>"; };
+		4A8AB3F42BBE6AAE00B7B2E2 /* PlacesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesDetailViewController.swift; sourceTree = "<group>"; };
+		4A8AB3F62BBE71C600B7B2E2 /* String-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +64,14 @@
 		4A8AB3D92BBE2D8D00B7B2E2 /* NearMeApp */ = {
 			isa = PBXGroup;
 			children = (
+				4A8AB3F02BBE5B0D00B7B2E2 /* PlaceAnnotation.swift */,
+				4A8AB3F22BBE65DB00B7B2E2 /* CLLocation-Extension.swift */,
+				4A8AB3F62BBE71C600B7B2E2 /* String-Extension.swift */,
 				4A8AB3DA2BBE2D8D00B7B2E2 /* AppDelegate.swift */,
 				4A8AB3DC2BBE2D8D00B7B2E2 /* SceneDelegate.swift */,
 				4A8AB3DE2BBE2D8D00B7B2E2 /* ViewController.swift */,
+				4A8AB3EE2BBE581C00B7B2E2 /* PlacesTableViewController.swift */,
+				4A8AB3F42BBE6AAE00B7B2E2 /* PlacesDetailViewController.swift */,
 				4A8AB3E32BBE2D8F00B7B2E2 /* Assets.xcassets */,
 				4A8AB3E52BBE2D8F00B7B2E2 /* LaunchScreen.storyboard */,
 				4A8AB3E82BBE2D8F00B7B2E2 /* Info.plist */,
@@ -135,8 +150,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A8AB3DF2BBE2D8D00B7B2E2 /* ViewController.swift in Sources */,
+				4A8AB3F32BBE65DC00B7B2E2 /* CLLocation-Extension.swift in Sources */,
+				4A8AB3F72BBE71C600B7B2E2 /* String-Extension.swift in Sources */,
+				4A8AB3EF2BBE581C00B7B2E2 /* PlacesTableViewController.swift in Sources */,
+				4A8AB3F12BBE5B0D00B7B2E2 /* PlaceAnnotation.swift in Sources */,
 				4A8AB3DB2BBE2D8D00B7B2E2 /* AppDelegate.swift in Sources */,
 				4A8AB3DD2BBE2D8D00B7B2E2 /* SceneDelegate.swift in Sources */,
+				4A8AB3F52BBE6AAE00B7B2E2 /* PlacesDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
